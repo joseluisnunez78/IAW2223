@@ -4,10 +4,10 @@ $(function () {
     /* Forma más corta de escribir el ready */
    $("#btn-mostrar").click(function (e) { 
     e.preventDefault();
-    $("#parrafo1").fadeIn();
+    $("#parrafo2").fadeIn(5000);
    });
    $("#btn-ocultar").click(function (e) { 
     e.preventDefault();
-    $("#parrafo2").fadeOut();
+    $("#parrafo2").fadeOut(5000);
    });
 });
